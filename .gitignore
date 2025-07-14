@@ -1,0 +1,65 @@
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.sqlite
+
+# === NODE (Backend) ===
+node_modules/
+dist/
+build/
+coverage/
+*.tgz
+*.gz
+
+# Ignore compiled output
+/lib
+/out
+*.tsbuildinfo
+
+# === ANGULAR (Frontend) ===
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+/frontend/.env
+/frontend/.env.local
+
+# === EDITOR FILES ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# === OS / SYSTEM FILES ===
+*.swp
+*.bak
+*.tmp
+*.orig
+*.old
+
+# === DATABASE ===
+*.db
+*.sql
+*.dump
+*.psql
+
+# === PM2 / Logs ===
+pids
+*.pid
+*.seed
+
+# === FAVICONS / IMAGES GENERATED ===
+/stubly_assets/
+/stubly_final_assets/
+favicon.ico
+
+# === OTHER ===
+*.zip
+*.7z
+*.rar
