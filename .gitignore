@@ -24,11 +24,11 @@ coverage/
 *.tsbuildinfo
 
 # === ANGULAR (Frontend) ===
-/frontend/node_modules/
-/frontend/dist/
-/frontend/.angular/
-/frontend/.env
-/frontend/.env.local
+/stubly-front/node_modules/
+/stubly-front/dist/
+/stubly-front/.angular/
+/stubly-front/.env
+/stubly-front/.env.local
 
 # === EDITOR FILES ===
 .idea/

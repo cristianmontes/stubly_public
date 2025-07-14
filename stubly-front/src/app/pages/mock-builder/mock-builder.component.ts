@@ -19,7 +19,8 @@ export class MockBuilderComponent {
     name: ''
   };
 
-  apiBaseUrl = 'http://localhost:3000/v1/mock/'; // o tu dominio actual
+  //apiBaseUrl = 'http://localhost:3000/v1/mock/'; // o tu dominio actual
+  apiBaseUrl = 'https://stubly-api.onrender.com/v1/mock/'; // o tu dominio actual
 
   mockCreado: any = null;
   respuestaMock: string | null = null;
@@ -64,7 +65,7 @@ export class MockBuilderComponent {
         response: JSON.parse(raw.response),
         name: raw.name
       };
-      
+
       this.mockService.createMock(payload, this.token).subscribe({
         next: (data) => {
           this.mockCreado = data;

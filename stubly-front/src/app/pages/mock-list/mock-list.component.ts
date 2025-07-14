@@ -10,7 +10,8 @@ import { MockService } from '../../services/mock.service';
 export class MockListComponent implements OnInit {
   mocks: any[] = [];
   token = localStorage.getItem('stubly_token');
-  apiBaseUrl = 'http://localhost:3000/v1/mock/'; // o tu dominio actual
+  //apiBaseUrl = 'http://localhost:3000/v1/mock/'; // o tu dominio actual
+  apiBaseUrl = 'https://stubly-api.onrender.com/v1/mock/'; // o tu dominio actual
 
   constructor(private http: HttpClient, private mockService: MockService) {}
 

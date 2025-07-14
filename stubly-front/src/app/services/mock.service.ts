@@ -3,7 +3,8 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable({ providedIn: 'root' })
 export class MockService {
-  private baseUrl = 'http://localhost:3000/api/mocks';
+  //private baseUrl = 'http://localhost:3000/api/mocks';
+  private baseUrl = 'https://stubly-api.onrender.com/api/mocks';
 
   constructor(private http: HttpClient) {}
 
